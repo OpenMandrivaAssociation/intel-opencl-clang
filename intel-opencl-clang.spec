@@ -14,6 +14,8 @@ BuildRequires: make
 BuildRequires: llvm-devel
 BuildRequires: clang-devel
 BuildRequires: pkgconfig(LLVMSPIRVLib)
+BuildRequires: pkgconfig(libxml-2.0)
+BuildRequires: pkgconfig(libzstd)
 BuildRequires: pkgconfig(zlib)
 
 %description
@@ -47,7 +49,7 @@ developing against %{name}
 
 %files devel
 %{_libdir}/libopencl-clang.so
-%{_includedir}/cclang/common_clang.h
+#{_includedir}/cclang/common_clang.h
 %{_includedir}/cclang/opencl-c.h
 %{_includedir}/cclang/opencl-c-base.h
 %{_includedir}/cclang/module.modulemap
