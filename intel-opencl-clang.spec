@@ -5,7 +5,7 @@ Summary: Library to compile OpenCL C kernels to SPIR-V modules
 
 License: NCSA
 URL:     https://github.com/intel/opencl-clang
-Source0: %{url}/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
+Source0: %{url}/archive/%{commit}/%{name}-%{version}.tar.gz
 
 BuildRequires: cmake
 BuildRequires: clang
