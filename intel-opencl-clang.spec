@@ -49,7 +49,7 @@ developing against %{name}
 
 %files devel
 %{_libdir}/libopencl-clang.so
-#{_includedir}/cclang/common_clang.h
+%{_includedir}/cclang/opencl_clang.h
 %{_includedir}/cclang/opencl-c.h
 %{_includedir}/cclang/opencl-c-base.h
 %{_includedir}/cclang/module.modulemap
